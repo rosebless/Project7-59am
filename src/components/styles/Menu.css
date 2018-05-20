@@ -1,0 +1,16 @@
+.menu-block-title {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0978ad;
+  }
+  
+  .menu-title {
+    color: white;
+  }
+  
+  .menu-list {
+    padding: 0px !important;
+  } 

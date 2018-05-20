@@ -1,0 +1,50 @@
+.popUpContainer {
+    height: 55vh 
+}
+.popUpContainerDel {
+    height: 35vh 
+}
+.popUpHeader { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh; 
+    border-bottom: 3px solid gray ;
+}
+#popUpHeader{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.87)
+}
+.popUpCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    /* background-color: aqua */
+}
+.popUpCenterDel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    /* background-color: aqua */
+}
+.popUpBot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    border-top: 3px solid gray ;
+} 
+.popUpButton {
+    width: 8vw;
+    margin-right: 20px;
+    background-color: rgb(68, 157, 68);
+}
+.textFieldPopUp {
+    height: 10vh;
+    width: 20vw
+}
